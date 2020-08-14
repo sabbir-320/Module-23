@@ -1,4 +1,8 @@
-
+// Function default parameter
+function number(num1, num2=2){
+    return num1 + num2;
+}
+console.log(number(5));
 
 
 const firstName = "Sabbir";
